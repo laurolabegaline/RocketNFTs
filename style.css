@@ -1,0 +1,154 @@
+/* ===  Resete CSS ===================== */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+:root {
+
+  --body-background: #0e0e0e;
+  --color-logo: #ff5b50;
+  --card-color: #252525;
+  --text-color: #fff;
+  --subtitle-color: #5a5757;
+  --black-text: #000;
+  --color-input: #0D0D0D;
+  --font-project: 'Montserrat', sans-serif;
+}
+html{
+  font-size: 62.5%;
+  background-color: var(--body-background);
+}
+.container{
+  padding: 5.7rem 8.2rem 0;
+
+}
+.grid{
+  display: grid;
+}
+.flex{
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+}
+/* ======= HEADER ============== */  
+header .menu{
+  color: var(--text-color);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .menu p{
+  color: var(--text-color);
+  font-family: var(--font-project);
+  font-weight: 700;
+  font-size: 4rem;
+}
+
+header .menu p span{
+  color: var(--color-logo);
+}
+header .menu ul{
+  display: flex;
+  gap: 6rem;
+  font-family: var(--font-project);
+  font-size: 1.8rem;
+  font-weight: 400;
+}
+header .menu a{
+  display: flex;
+  align-items: center;
+  width: 23rem;
+  height: 5rem;
+  background-color: #fff;
+  color: var(--black-text);
+  font-family: var(--font-project);
+  font-weight: 700;
+  font-size: 1.6rem;
+}
+header .menu img{
+  width: 3rem;
+  height: 3rem;
+  margin: 1rem 1.4rem;
+}
+/* ======= SECTION ============== */  
+section.main1{
+  padding: 9.8rem 0  0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 4rem;
+}
+
+section.main1 div.grid{
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+}
+
+
+section.main1 div.grid p{
+  color: var(--text-color);
+  font-family: var(--font-project);
+  font-size: 1.8rem;
+  font-weight: 400;
+  
+}
+
+section.main1 div.grid div img{
+  width: 9.5rem;
+  height: 8.6rem;
+  position: relative;
+}
+section.main1 div.grid div img.artist2{
+  position: absolute;
+  left: 11rem;
+}
+section.main1 div.grid div img.artist3{
+  position: absolute;
+  left: 14.4rem;
+}
+section.main1 div.grid div img.artist4{
+  position: absolute;
+  left: 15.4rem;
+}
+section.main1 div.grid div p {
+  color: var(--text-color);
+  font-family: var(--font-project);
+  font-size: 1.8rem;
+  margin-left: 9rem;
+}
+
+section.main1 div h1{
+  color: var(--text-color);
+  font-family: var(--font-project);
+  font-size: 5rem;
+  font-weight: 700;
+  width: 59.6rem;
+}
+
+section.main1 div h1 span{
+  color: var(--color-logo);
+}
+section.main1 div img{
+  width: 20rem;
+  height: 20rem;
+}
+
+
