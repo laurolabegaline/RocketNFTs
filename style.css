@@ -18,8 +18,8 @@ img {
   width: 100%;
   height: auto;
 }
-:root {
 
+:root {
   --body-background: #0e0e0e;
   --color-logo: #ff5b50;
   --card-color: #252525;
@@ -37,17 +37,22 @@ html{
   padding: 5.7rem 8.2rem 0;
 
 }
-.grid{
-  display: grid;
-}
-.flex{
-  display: flex;
-  justify-content: flex-start;
-  align-items: flex-end;
-}
+
 /* ======= HEADER ============== */  
+body .home1{
+  background-image: url(./assets/background.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+header{
+  padding: 0 0 9.8rem; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 header .menu{
   color: var(--text-color);
+  width: 127.7rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -58,7 +63,6 @@ header .menu p{
   font-weight: 700;
   font-size: 4rem;
 }
-
 header .menu p span{
   color: var(--color-logo);
 }
@@ -80,44 +84,91 @@ header .menu a{
   font-weight: 700;
   font-size: 1.6rem;
 }
+header .menu a:hover {
+  background-color: var(--color-logo);
+  color: #fff;
+  transition: 1s;
+}
 header .menu img{
   width: 3rem;
   height: 3rem;
   margin: 1rem 1.4rem;
 }
 /* ======= SECTION ============== */  
+main.main1{
+  display: flex;
+  justify-content: center;
+}
 section.main1{
-  padding: 9.8rem 0  0;
   display: flex;
-  align-items: center;
   justify-content: space-between;
+  width: 127.7rem;
   gap: 4rem;
+  align-items: center;
 }
 
-section.main1 div.grid{
-
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-
+section.main1 div.sideleftmain{
 }
 
-
-section.main1 div.grid p{
+section.main1 div.sideleftmain p{
   color: var(--text-color);
   font-family: var(--font-project);
   font-size: 1.8rem;
   font-weight: 400;
+  padding-bottom: 5.5rem;
+}
+section.main1 div.sideleftmain div.flex{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
   
 }
-
-section.main1 div.grid div img{
-  width: 9.5rem;
-  height: 8.6rem;
+section.main1 div.sideleftmain div.artistas{
   position: relative;
 }
-section.main1 div.grid div img.artist2{
+
+section.main1 div.sideleftmain div img{
+  width: 9.5rem;
+  height: 8.6rem;
+}
+section.main1 div.sideleftmain div img.img1{
+ position: absolute;
+ left: 0;
+ top: -7.7rem;
+ z-index: 4;
+}
+
+section.main1 div.sideleftmain div img.img2{
   position: absolute;
+  top: -7.7rem;
+  left: 3rem;
+  z-index: 3;
+}
+section.main1 div.sideleftmain div img.img3{
+  position: absolute;
+  top: -7.7rem;
+  left: 6rem;
+  z-index: 2;
+}
+section.main1 div.sideleftmain div img.img4{
+  position: absolute;
+  top: -7.7rem;
+  left: 8rem;
+  z-index: 1;
+}
+
+section.main1 div.sideleftmain div p.artists{
+  color: var(--text-color);
+  font-family: var(--font-project);
+  font-size: 1.8rem;
+  padding: 0;
+}
+section.main1 div.sideleftmain div p.artists span{
+  font-weight: bold;
+}
+/*
+section.main1 div.grid div img.artist2{
+  position: relative;
   left: 11rem;
 }
 section.main1 div.grid div img.artist3{
@@ -128,13 +179,16 @@ section.main1 div.grid div img.artist4{
   position: absolute;
   left: 15.4rem;
 }
+
 section.main1 div.grid div p {
   color: var(--text-color);
   font-family: var(--font-project);
   font-size: 1.8rem;
   margin-left: 9rem;
+  width: 40rem;
 }
-
+*/
+/* ===== MEIO ========*/
 section.main1 div h1{
   color: var(--text-color);
   font-family: var(--font-project);
@@ -142,13 +196,36 @@ section.main1 div h1{
   font-weight: 700;
   width: 59.6rem;
 }
-
 section.main1 div h1 span{
   color: var(--color-logo);
 }
+/* ===== RIGHT SIDE ========*/
+
 section.main1 div img{
   width: 20rem;
   height: 20rem;
 }
 
-
+/* ======== GALLERY =========*/
+section.gallery {
+  padding-top: 10rem;
+}
+section.gallery img{
+  width: 30.7rem;
+  height: 19.889rem;
+  border: 1px solid #ffffff;
+  box-sizing: border-box;
+}
+div.gallery1{
+  display: flex;
+  justify-content: center;
+  gap: 1.6rem;
+  padding-bottom: 6.044rem;
+}
+div.gallery2{
+  display: flex;
+  justify-content: center;
+  gap: 1.6rem;
+  margin-bottom: 1rem;
+}
+ 
