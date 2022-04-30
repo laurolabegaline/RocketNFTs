@@ -166,29 +166,7 @@ section.main1 div.sideleftmain div p.artists{
 section.main1 div.sideleftmain div p.artists span{
   font-weight: bold;
 }
-/*
-section.main1 div.grid div img.artist2{
-  position: relative;
-  left: 11rem;
-}
-section.main1 div.grid div img.artist3{
-  position: absolute;
-  left: 14.4rem;
-}
-section.main1 div.grid div img.artist4{
-  position: absolute;
-  left: 15.4rem;
-}
 
-section.main1 div.grid div p {
-  color: var(--text-color);
-  font-family: var(--font-project);
-  font-size: 1.8rem;
-  margin-left: 9rem;
-  width: 40rem;
-}
-*/
-/* ===== MEIO ========*/
 section.main1 div h1{
   color: var(--text-color);
   font-family: var(--font-project);
@@ -226,6 +204,76 @@ div.gallery2{
   display: flex;
   justify-content: center;
   gap: 1.6rem;
-  margin-bottom: 1rem;
 }
+
+/* ======== MAIN2=========*/
  
+section .main2{
+  /* APAGAR LINE ABAIXO*/
+  color: #FFF;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  border-bottom: 1px solid #5A5757;
+}
+section div.sideleft{
+  width: 28.1rem;
+  height: 66rem;
+  border-right: 1px solid #5A5757;
+  align-items: center;
+  align-content: center;
+}
+section div.numbers{
+  padding: 13rem 6.7rem;
+}
+
+section div.numbers h1{
+  font-family: var(--font-project);
+  font-size: 5rem;
+  font-weight: 600;
+  line-height: 6.1rem;
+  color: #ffffff;
+}
+section div.numbers p{
+  font-family: var(--font-project);
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 2.4rem;
+  color: #5a5757;
+  padding-bottom: 7rem;
+}
+section div.sideright{
+  height: 66rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+section div.testimonials {
+  display: flex;
+  justify-content: space-between;
+  gap: 12rem;
+  padding: 7rem 13.8rem 7rem 6.8rem;
+}
+section div.testimonials h4{
+  font-family: var(--font-project);
+  font-style: normal;
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 2.2rem;
+  color: #ffffff;
+  padding-bottom: 6.3rem;
+}
+section div.testimonials h4 span{
+  color: var(--color-logo);
+  text-decoration: underline;
+}
+section div.testimonials p{
+  font-family: var(--font-project);
+  font-style: normal;
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 2.2rem;
+  color: #ffffff;
+}
+section div.bannner img{
+}
