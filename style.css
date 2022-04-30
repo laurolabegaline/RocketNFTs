@@ -209,8 +209,6 @@ div.gallery2{
 /* ======== MAIN2=========*/
  
 section .main2{
-  /* APAGAR LINE ABAIXO*/
-  color: #FFF;
   display: flex;
   margin: 0;
   padding: 0;
@@ -275,5 +273,88 @@ section div.testimonials p{
   line-height: 2.2rem;
   color: #ffffff;
 }
-section div.bannner img{
+section div.banner img{
+  padding: 1.7rem 0 0; 
+  max-width: 100%;
+  height: 100%;
+}
+/* ======== MAIN3 =========*/
+
+section.container {
+  padding-top: 14.9rem;
+
+  /* APAGAR LINE ABAIXO*/
+  color: #FFF;
+}
+div.title h1{
+  font-family: var(--font-project);
+  font-style: normal;
+  font-size: 5rem;
+  font-weight: 700;
+  line-height: 6.1rem;
+  color: #ffffff;
+  padding-bottom: 15.8rem;
+}
+div.title h1 span{ 
+  color: var(--color-logo);
+}
+div.arts {
+  display: flex;
+  justify-content: space-around;
+}
+div.arts-sideleft{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 1rem;
+}
+/* card arts start*/
+div.card-arts {
+  width: 35rem;
+}
+div.card-arts .card-top{
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 4.4rem;
+  align-items: center;
+}
+div.card-arts .card-top p{
+  font-family: var(--font-project);
+  font-style: normal;
+  font-size: 3rem;
+  font-weight: 500;
+  line-height: 3.7rem;
+  color: #ffffff;
+}
+div.card-arts .card-top img{
+  width: 3rem;
+  height: 3rem;
+}
+div.card-arts .card-description {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+div.card-arts .card-description p {
+  font-family: var(--font-project);
+  font-style: normal;
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 2.4rem;
+  color: #5a5757;
+  padding-bottom: 2.6rem;
+}
+div.card-arts .card-description p span {
+  color: var(--color-logo);
+}
+div.card-arts .card-image img{
+  width: 35rem;
+  height: 20rem;
+  padding-bottom: 5rem;
+}
+/* card arts end*/
+
+div.divider{
+  width: 1rem;
+  border-right: 1px solid #5a5757;
 }
