@@ -300,7 +300,7 @@ div.title h1 span{
 }
 div.arts {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 div.arts-sideleft{
   display: flex;
