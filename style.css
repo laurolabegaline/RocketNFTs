@@ -430,3 +430,38 @@ div.footer-artist img {
 	width: 2rem;
 	height: 2rem;
 }
+
+/* ============ FOOTER ===========*/
+footer{
+
+	background-color: var(--card-color);
+	width: 144.4rem;
+	height: 70.9rem;
+
+}
+section.top-footer{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 11.2rem 8.8rem 7.7rem 8.4rem;
+	border-bottom: 1px solid gray;
+
+}
+section.top-footer p{
+	font-family: var(--font-project);
+	font-weight: 700;
+	font-size: 4rem;
+	line-height: 4.9rem;
+	color: #fff;
+}
+section.top-footer p span{
+	color: var(--color-logo);
+}
+div.rectangle-orange {
+	width: 8rem;
+	height: 8rem;
+	background-color: var(--color-logo);
+}
+div.rectangle-orange img{
+	padding: 2.5rem;
+}
