@@ -385,7 +385,8 @@ div.card-artist {
 	display: flex;
 	align-items: center;
 }
-div.card-artist .active {
+div.card-artist.active {
+	background-color: var(--color-logo);
 }
 div.card-img img {
 	width: 10rem;
@@ -400,6 +401,10 @@ div.card-info p {
 	line-height: 2.4rem;
 	font-style: normal;
 	margin-bottom: 1rem;
+	color: #fff;
+}
+div.card-info p.active span {
+	color: var(--text-color);
 }
 div.card-info p span {
 	color: var(--color-logo);
