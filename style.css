@@ -371,15 +371,21 @@ main .title-main4 h1 span {
 	color: var(--color-logo);
 }
 div.grid-artist {
-	display: flex;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 11rem;
+	align-items: center;
+	padding-bottom: 5.4rem;
 }
-
+/* ====== CARD ARTISTS ======== */
 div.card-artist {
 	width: 35rem;
 	height: 15rem;
 	background-color: var(--card-color);
 	display: flex;
 	align-items: center;
+}
+div.card-artist .active {
 }
 div.card-img img {
 	width: 10rem;
@@ -397,4 +403,25 @@ div.card-info p {
 }
 div.card-info p span {
 	color: var(--color-logo);
+}
+
+div.footer-artist {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 3rem;
+	padding-bottom: 14.7rem;
+}
+
+div.footer-artist p {
+	font-family: var(--font-project);
+	font-size: 2rem;
+	font-weight: 400;
+	line-height: 2.4rem;
+	color: #ffffff;
+	text-align: center;
+}
+div.footer-artist img {
+	width: 2rem;
+	height: 2rem;
 }
