@@ -281,8 +281,6 @@ section div.banner img {
 section.container {
 	padding-top: 14.9rem;
 
-	/* APAGAR LINE ABAIXO*/
-	color: #fff;
 }
 div.title h1 {
 	font-family: var(--font-project);
@@ -304,7 +302,13 @@ div.arts-sideleft {
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
-	gap: 1rem;
+	gap: 5rem;
+}
+div.arts-sideright {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	gap: 5rem;
 }
 /* card arts start*/
 div.card-arts {
@@ -348,7 +352,6 @@ div.card-arts .card-description p span {
 div.card-arts .card-image img {
 	width: 35rem;
 	height: 20rem;
-	padding-bottom: 5rem;
 }
 /* card arts end*/
 
@@ -365,6 +368,7 @@ main .title-main4 h1 {
 	font-size: 5rem;
 	line-height: 6rem;
 	text-align: center;
+	color: #ffffff;
 }
 
 main .title-main4 h1 span {
@@ -496,6 +500,9 @@ div.form-email input {
 	font-size: 2rem;
 	font-weight: 400;
 	line-height: 2.4rem;
+}
+div.form-email input::-webkit-input-placeholder {
+	padding-left: 2rem;
 }
 a.button-send {
 	width: 12.2rem;
