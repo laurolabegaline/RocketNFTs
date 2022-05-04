@@ -298,7 +298,7 @@ div.title h1 span {
 }
 div.arts {
 	display: flex;
-	justify-content: space-around;
+	justify-content: space-between;
 }
 div.arts-sideleft {
 	display: flex;
@@ -435,15 +435,14 @@ div.footer-artist img {
 footer{
 
 	background-color: var(--card-color);
-	width: 144.4rem;
-	height: 70.9rem;
+
 
 }
 section.top-footer{
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-	padding: 11.2rem 8.8rem 7.7rem 8.4rem;
+	padding: 8.2rem 8.8rem 6rem 8.4rem;
 	border-bottom: 1px solid gray;
 
 }
@@ -465,4 +464,101 @@ div.rectangle-orange {
 div.rectangle-orange img{
 	padding: 2.5rem;
 }
+section.middle-footer {
+	border-bottom: 1px solid gray;
+	display: flex;
+}
+div.side-left-footer{
+	border-right: 1px solid gray;
+}
+div.newsletter p {
+	font-family: var(--font-project);
+	font-weight: 500;
+	font-size: 3rem;
+	line-height: 3.7rem;
+	color: #ffffff;
+	padding: 6.7rem 11.3rem 2.5rem 8.1rem;
+}
+div.newsletter p span {
+	color: var(--color-logo);
+}
+div.form-email {
+	display: flex;
+	padding: 0 0 8.2rem 8rem;
+}
+div.form-email input {
+	width: 28rem;
+	height: 6.6rem;
+	background-color: #0d0d0d;
+	border: none;
+	color: var(--subtitle-color);
+	font-family: var(--font-project);
+	font-size: 2rem;
+	font-weight: 400;
+	line-height: 2.4rem;
+}
+a.button-send {
+	width: 12.2rem;
+	height: 6.6rem;
+	background-color: #ffffff;
+	color: #000;
+	font-family: var(--font-project);
+	font-weight: 700;
+	font-size: 2rem;
+	line-height: 2.4rem;
+	text-align: center;
+	padding: 2.2rem 0;
+	margin-right: 8.8rem ;
+}
+div.middle-links{
+	display: flex;
+	padding: 0 12rem;
+	align-items: center;
+	align-content: center;
+	gap: 12.8rem;
+}
+div.middle-links a{
+	font-family: var(--font-project);
+	font-size: 2rem;
+	font-weight: 400;
+	line-height: 2.4rem;
+	color: #5a5757;
+}
+div.middle-links a.link-bold{
+	font-weight: 700;
+	color: #ffffff;
+}
 
+div.business {
+	display: grid;
+	padding: 7.4rem 0 5.3rem ;
+	gap: .35rem;
+}
+div.map {
+	display: grid;
+	padding: 7.4rem 0 5.3rem ;
+	gap: .35rem;
+}
+div.links {
+	display: grid;
+	padding: 7.4rem 0 5.3rem ;
+	gap: .35rem;
+}
+section.copy {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 6.9rem 8.4rem;
+}
+section.copy p{
+	color: var(--subtitle-color);
+	font-family: var(--font-project);
+	font-size: 2rem;
+	font-weight: 400;
+	line-height: 2.4rem;
+}
+div.social {
+	display: flex;
+	justify-content: space-between;
+	gap: 5rem;
+}
